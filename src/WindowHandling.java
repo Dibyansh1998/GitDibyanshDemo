@@ -17,6 +17,7 @@ public class WindowHandling {
 		//Below command use when window pop-up will come out
 		driver.get("https://admin:admin@the-internet.herokuapp.com/");
 		driver.findElement(By.partialLinkText("Basic Auth")).click();
+		System.out.println("By the Browser automatically accepted the pop-up");
 
 	}
 
